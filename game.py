@@ -11,4 +11,13 @@ VENTANA = pygame.display.set_mode
 jugando = True
 
 while jugando:
+  eventos = pygame.event.get()
+
+  for evento in eventos:
+    if evento.type == pygame.
+    QUIT:
+      jugando = false
+      
   pygame.display.update()
+
+quit ()

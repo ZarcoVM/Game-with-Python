@@ -1,4 +1,5 @@
 # iniciando videojuego con libreria pygame
+#imports para el proyecto 
 import py game
 
 #pip install pygame
@@ -9,6 +10,8 @@ VENTANA = pygame.display.set_mode
 ([ANCHO, ALTO])
 
 jugando = True
+
+#ciclo para que la ventana del juego abra y cierre
 
 while jugando:
   eventos = pygame.event.get()

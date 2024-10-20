@@ -1,8 +1,10 @@
-# iniciando videojuego con libreria pygame
-#imports para el proyecto 
-import py game
+# Imports para el proyecto
+import pygame  # Corrección del import
 
-#pip install pygame
+# pip install pygame
+
+# Inicialización de Pygame
+pygame.init()
 #Comenzamos con el desarrollo
 ANCHO = 1000
 ALTO = 800

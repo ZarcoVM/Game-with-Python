@@ -11,6 +11,9 @@ pygame.init()
 ANCHO = 1000
 ALTO = 800
 VENTANA = pygame.display.set_mode([ANCHO, ALTO])
+# Título de la ventana (opcional)
+pygame.display.set_caption("ZarcoGame with Pygame")
+
 jugando = True
 
 #ciclo para que la ventana del juego abra y cierre

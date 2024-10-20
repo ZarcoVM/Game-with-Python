@@ -23,7 +23,8 @@ while jugando:
     for evento in eventos:
         if evento.type == pygame.QUIT:
             jugando = False  
-      
-  pygame.display.update()
+     # Actualizar pantalla
+    pygame.display.update()
 
+    #Salir del pygame
 quit ()

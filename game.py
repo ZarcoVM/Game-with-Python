@@ -3,14 +3,14 @@ import pygame  # Corrección del import
 
 # pip install pygame
 
+
 # Inicialización de Pygame
 pygame.init()
-#Comenzamos con el desarrollo
+
+# Definimos dimensiones de la ventana
 ANCHO = 1000
 ALTO = 800
-VENTANA = pygame.display.set_mode
-([ANCHO, ALTO])
-
+VENTANA = pygame.display.set_mode([ANCHO, ALTO])
 jugando = True
 
 #ciclo para que la ventana del juego abra y cierre

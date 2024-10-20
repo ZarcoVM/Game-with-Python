@@ -14,17 +14,15 @@ VENTANA = pygame.display.set_mode([ANCHO, ALTO])
 # Título de la ventana (opcional)
 pygame.display.set_caption("ZarcoGame with Pygame")
 
-jugando = True
-
-#ciclo para que la ventana del juego abra y cierre
-
+# Ciclo para mantener la ventana abierta
 while jugando:
-  eventos = pygame.event.get()
+    # Obtener eventos de Pygame
+    eventos = pygame.event.get()
 
-  for evento in eventos:
-    if evento.type == pygame.
-    QUIT:
-      jugando = false
+    # Procesar eventos
+    for evento in eventos:
+        if evento.type == pygame.QUIT:
+            jugando = False  
       
   pygame.display.update()
 

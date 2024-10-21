@@ -7,6 +7,7 @@ class Cubo:
     self.ancho = 50
     self.velocidad = 1
     self.color = "red"
+    self.rect = pygame.React(self.x, self.y, self.ancho, self.alto)
 
   def dibujar (self, ventana):
     Expected indented block

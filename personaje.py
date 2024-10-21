@@ -7,3 +7,6 @@ class Cubo:
     self.ancho = 50
     self.velocidad = 1
     self.color = "red"
+
+  def dibujar (self, ventana):
+    Expected indented block

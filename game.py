@@ -16,6 +16,11 @@ VENTANA = pygame.display.set_mode([ANCHO, ALTO])
 jugando = True
 
 cubo = Cubo(100, 100)
+
+def gestionar_teclas(teclas):
+    if teclas[pygame.k_w]:
+        cubu.y -= cubo.velocidad
+        
 # Título de la ventana (opcional)
 pygame.display.set_caption("ZarcoGame with Pygame")
 
@@ -23,6 +28,11 @@ pygame.display.set_caption("ZarcoGame with Pygame")
 while jugando:
     # Obtener eventos de Pygame
     eventos = pygame.event.get()
+
+    teclas = pygame.key.get_pressed
+    ()
+
+    gestionar_teclas(teclas)
 
     # Procesar eventos
     for evento in eventos:

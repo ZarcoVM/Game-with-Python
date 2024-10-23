@@ -1,5 +1,6 @@
 # Imports para el proyecto
 import pygame  # Corrección del import
+from personaje import cubo
 
 # pip install pygame
 
@@ -11,6 +12,10 @@ pygame.init()
 ANCHO = 1000
 ALTO = 800
 VENTANA = pygame.display.set_mode([ANCHO, ALTO])
+
+jugando = True
+
+cubo = Cubo(100, 100)
 # Título de la ventana (opcional)
 pygame.display.set_caption("ZarcoGame with Pygame")
 

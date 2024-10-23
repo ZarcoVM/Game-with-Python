@@ -28,6 +28,7 @@ while jugando:
     for evento in eventos:
         if evento.type == pygame.QUIT:
             jugando = False  
+    cubo.dibujar(VENTANA)
      # Actualizar pantalla
     pygame.display.update()
 

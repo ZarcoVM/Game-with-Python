@@ -20,6 +20,12 @@ cubo = Cubo(100, 100)
 def gestionar_teclas(teclas):
     if teclas[pygame.k_w]:
         cubu.y -= cubo.velocidad
+    if teclas[pygame.k_s]:
+        cubu.y += cubo.velocidad
+    if teclas[pygame.k_a]:
+        cubu.x -= cubo.velocidad
+    if teclas[pygame.k_d]:
+        cubu.x += cubo.velocidad
         
 # Título de la ventana (opcional)
 pygame.display.set_caption("ZarcoGame with Pygame")

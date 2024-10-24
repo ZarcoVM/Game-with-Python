@@ -3,7 +3,7 @@ import pygame  # Corrección del import
 from personaje import cubo
 
 # pip install pygame
-
+# para instalar libreria 
 
 # Inicialización de Pygame
 pygame.init()

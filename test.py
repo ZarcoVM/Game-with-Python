@@ -1,5 +1,3 @@
-notasnotesnote
-gdf
 
 
 

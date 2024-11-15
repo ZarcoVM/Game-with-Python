@@ -1,2 +1,1 @@
-iniciado 
-juego con pgame
+

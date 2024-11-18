@@ -1,1 +1,1 @@
-pythonen es un jueg
+pythonen es u

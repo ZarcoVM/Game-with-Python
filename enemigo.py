@@ -1,5 +1,5 @@
 import pygame
-
+ 
 class Enemigo:
   def __init__(self, x, y):
     self.x = y

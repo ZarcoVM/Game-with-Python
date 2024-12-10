@@ -12,4 +12,4 @@ class Enemigo:
 
   def dibujar (self, ventana):
     pygame.draw.rect(ventana, self.color, self.rect)
- 
+  

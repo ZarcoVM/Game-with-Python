@@ -11,4 +11,4 @@ class Cubo:
     self.rect = pygame.React(self.x, self.y, self.ancho, self.alto)
 
   def dibujar (self, ventana):
-    pygame.draw.rect(ventana, self.color, self.rect)
+    pygame.draw.rect(ventana, self.color, self.rect) 

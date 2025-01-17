@@ -1,5 +1,5 @@
 import pygame
-ñ
+
 
 class Cubo:
   def __init__(self, x, y):

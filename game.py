@@ -8,6 +8,7 @@ from enemigo import enemigo
 
 
 
+
 # Inicialización de Pygame
 pygame.init()
 

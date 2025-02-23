@@ -1,5 +1,8 @@
 # Imports para el proyecto 
-import pygame  # Corrección del import
+import pygame  
+
+
+# Corrección del import
 from personaje import cubo
 from enemigo import enemigo
 # pip install pygame

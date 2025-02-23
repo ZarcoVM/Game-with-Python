@@ -9,10 +9,6 @@ from enemigo import enemigo
 # para instalar libreria 
 
 
-
-
-
-
 # Inicialización de Pygame
 pygame.init()
 

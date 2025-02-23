@@ -5,7 +5,6 @@ from enemigo import enemigo
 # pip install pygame
 # para instalar libreria 
 
-
 # Inicialización de Pygame
 pygame.init()
 
